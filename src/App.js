@@ -4,44 +4,34 @@ import "bootstrap/dist/js/bootstrap"
 function App() {
   return (
       <>
-        <header className="App-header">
-            <div className="container text-center">
-                <div className="row">
-                    <div className="col-8">
+          <div className="container">
+              <header className="row">
+                  <div className="col-8">
+                      Ważenie pojazdów
+                  </div>
+                  <div className="col-4">
+                      Obrazek
+                  </div>
+              </header>
 
-                    </div>
-                    <div className="col-4">
+              <div className="row">
+                  <div className="col-3">
+                      Lokalizacje
+                  </div>
+                  <div className="col-5">
+                      Tabelka
+                  </div>
+                  <div className="col-4">
+                      Obrazek
+                  </div>
+              </div>
 
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <div className="App">
-            <div className="container text-center">
-                <div className="row">
-                    <div className="col-3">
-
-                    </div>
-                    <div className="col-5">
-
-                    </div>
-                    <div className="col-4">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-          <footer className="App-footer">
-              <div className="container text-center">
-                  <div className="row">
-                      <div className="col-12">
-
-                      </div>
-                </div>
-            </div>
-        </footer>
+              <footer className="row">
+                  <div className="col-12">
+                      Footer
+                  </div>
+              </footer>
+          </div>
       </>
   )
 }
